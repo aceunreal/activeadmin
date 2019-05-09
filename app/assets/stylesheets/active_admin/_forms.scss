@@ -239,6 +239,11 @@ form {
   .buttons, .actions {
     margin-top: 15px;
     input[type=submit], input[type=button], button { margin-right: 10px; }
+
+    &.top {
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
   }
 
   .actions .create_another {
